@@ -12,6 +12,15 @@ img{
 	margin-bottom: 15px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
 .link a:last-of-type,
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
