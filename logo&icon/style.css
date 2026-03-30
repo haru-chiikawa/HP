@@ -1,0 +1,18 @@
+/*********************　メイン　*********************/
+img{
+	width: 50%;
+	max-width: 300px;
+	height: auto;
+}
+
+.img{
+	text-align: center;
+}
+
+.character p:last-of-type,
+.logo p:last-of-type,
+.icon p:last-of-type,
+.collar p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}

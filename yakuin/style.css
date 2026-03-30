@@ -1,0 +1,69 @@
+/*********************　メイン　*********************/
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.yakuin p:last-of-type,
+.executive p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/***********　役員　***********/
+.executive {
+	display: flex;
+	gap: 40px;
+	max-width: 900px;
+	margin: 60px auto;
+	padding: 0 20px;
+	align-items: flex-start;
+}
+
+.executive-photo img {
+	width: 220px;
+	height: auto;
+	border-radius: 4px;
+}
+
+.executive-profile h2 {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 8px;
+}
+
+.executive-profile h3 {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
+.executive-profile p {
+	font-size: 15px;
+}
+
+/******　役員（スマホ）　******/
+@media screen and (max-width: 768px) {
+	.executive {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 24px;
+		margin: 40px auto;
+	}
+
+	.executive-photo {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.executive-photo img {
+		width: 160px;
+	}
+
+	.executive-profile h3 {
+		font-size: 20px;
+	}
+
+	.executive-profile p {
+		font-size: 14px;
+	}
+}

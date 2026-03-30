@@ -1,0 +1,149 @@
+/***********　トップ　***********/
+.main{
+	position-top: 100px;
+ }
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.main-top{
+	height: 750px;
+	background-size: cover;
+	background-image: url("imgs/hand.jpg");
+	background-position: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+.main-logo{
+	width: 60%;
+	max-width: 500px;
+	height: auto;
+	filter: drop-shadow(0 10px 4px rgba(0,0,0,0.7));
+}
+
+.main-top-text{
+	width: 90%;
+	padding: 0 15px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+/******　トップ（タブレット）　******/
+@media(max-width: px){
+	.
+}
+
+/******　トップ（スマホ）　******/
+@media(max-width: 768px){
+	.main-logo{
+		width: 70%;
+		max-width: 320px;
+	}
+	.main-top-text{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 480px){
+	.main-logo{
+		width: 80%;
+		max-width: 260px;
+	}
+}
+
+.main-top{
+	margin-bottom: 40px;
+}
+
+.kongo{
+	margin-bottom: 40px;
+}
+
+.aboutkizunakouryu p:last-of-type,
+.keii p:last-of-type,
+.tokucho p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/***********　今後の活動　***********/
+.kongo{
+	text-align: center;
+	position: relative;
+}
+.kongo p{
+	 text-align: left;
+ }
+.box-container{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+.box{
+	position: relative;
+	width: calc(50% - 20%);
+	max-width: 500px;
+}
+.box img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	display: block;
+}
+.box .caption{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+@media screen and (min-width: 992px){
+	.box{
+		width: calc(33.3% - 20px);
+		max-width: 280px;
+	}
+	.box .caption{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.box {
+		width: 100%;
+		max-width: 100%
+	}
+	.box .caption{
+		font-size: 12px;
+		padding: 8px;
+	}
+}
+
+
+/***********　活動紹介　***********/
+.main-katsudo h3{
+	font-size: 25px;
+}
+
+/******　活動紹介（タブレット）　******/
+@media(max-width: px){
+	.
+}
+
+/******　活動紹介（スマホ）　******/
+@media(max-width: 768px){
+	.
+}

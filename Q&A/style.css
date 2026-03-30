@@ -1,0 +1,17 @@
+.set p:last-of-type{
+	border-bottom: 1px solid #333;
+}
+
+.Q&A p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/***********　Ｑ＆Ａ　**********/
+.r{
+	text-align: right;
+}
+
+.l{
+	text-align: left;
+}
