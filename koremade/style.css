@@ -18,7 +18,6 @@ table {
 	border-collapse: collapse;
 	border: 3px solid black;
 	width: 600px;
-	table-layout: fixed;
 }
 
 th, td {
@@ -32,17 +31,20 @@ th {
 
 /*****　列の幅　*****/
 th:nth-child(1), td:nth-child(1) {
-	width: 75px;
+	width: 70px;
 }
 
 th:nth-child(2), td:nth-child(2) {
-	width: 250px;
+	width: 220px;
 }
 
 th:nth-child(3), td:nth-child(3) {
-	width: 120px;
+	width: 100px;
 }
 
+table{
+	table-layout: fixed;
+}
 
 .link a:last-of-type,
 .main-otoiawase p:last-of-type {
