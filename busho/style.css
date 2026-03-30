@@ -1,0 +1,14 @@
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.main-katsudo p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/***********　活動紹介　***********/
+.main-katsudo h3{
+	font-size: 25px;
+}
