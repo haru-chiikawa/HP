@@ -31,15 +31,15 @@ th {
 
 /*****　列の幅　*****/
 th:nth-child(1), td:nth-child(1) {
-	width: 70px;
+	width: 100px;
 }
 
 th:nth-child(2), td:nth-child(2) {
-	width: 220px;
+	width: 250px;
 }
 
 th:nth-child(3), td:nth-child(3) {
-	width: 100px;
+	width: 140px;
 }
 
 table{
